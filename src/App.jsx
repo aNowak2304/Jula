@@ -6,6 +6,7 @@ import Services from './components/Services/Services.jsx';
 import Offer from './components/Offer/Offer.jsx';
 import AboutMe from './components/AboutMe/AboutMe.jsx';
 import Timeline from './components/Timeline/Timeline.jsx';
+import KeepInTouch from './components/KeepInTouch/KeepInTouch.jsx';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Offer/>
       <AboutMe/>
       <Timeline/>
+      <KeepInTouch/>
     </div>
   );
 }
