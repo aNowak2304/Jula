@@ -1,0 +1,173 @@
+.timeline{
+    background-color: #1A2F42;
+    color: #EFEEEC;
+    padding: 3em 1em;
+
+    &__heading{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    &__title{
+        font-size: 2.4rem;
+        margin: 0.2em 0 1em 0;
+        color: #A8B1B3;
+        font-family: 'Reenie Beanie', sans-serif;
+        text-align: center;
+    }
+ 
+    &__box{
+        margin-bottom: 1em;
+        &-counter{
+            margin-bottom: 0.2em;
+            font-size: 8rem;
+        }
+    }
+
+    &__box:last-child{
+        margin-bottom: 0;
+    }
+
+    &__info{
+        padding-bottom: 2.5em;
+        border-bottom: 1px solid white;
+        &-title{
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 2.3rem;
+        }
+
+        &-other{
+            margin-bottom: 1.5em;
+            font-size: 1.8rem;
+            font-weight: bold;
+            font-family: 'Reenie Beanie', sans-serif;
+        }
+
+        &-text{
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media(min-width: 768px){
+    .timeline{
+        padding: 4em 2em;
+    
+        &__heading{
+            font-size: 2.8rem;
+            letter-spacing: 3px;
+        }
+    
+        &__title{
+            font-size: 2.6rem;
+            margin: 0.2em 0 1em 0;
+            color: #A8B1B3;
+        }
+    
+        .wrapper{
+            padding-top: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__box{
+            margin-bottom:3em;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 70%;
+            &-counter{
+                margin-top: -0.4em;
+                margin-right: 0.5em;
+                font-size: 10rem;
+            }
+        }
+
+    
+        &__info{
+
+            &-title{
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 2.5rem;
+            }
+    
+            &-other{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px){
+    .timeline{
+        padding: 5em 2em;
+    
+        &__heading{
+            font-size: 3rem;
+        }
+    
+        &__title{
+            font-size: 2.8rem;
+            margin: 0.4em 0 1em 0;
+        }
+    
+        .wrapper{
+            padding-top: 3em;
+        }
+
+        &__box{
+            width: 60%;
+            &-counter{
+                margin-right: 0.7em;
+            }
+        }
+    
+        &__info{
+            &-title{
+                font-size: 2.6rem;
+            }
+    
+            &-other{
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
+@media(min-width: 1200px){
+    .timeline{
+        padding: 5em 2em;
+    
+        &__heading{
+            font-size: 3.4rem;
+        }
+    
+        &__title{
+            font-size: 3rem;
+        }
+    
+        .wrapper{
+            padding-top: 3em;
+        }
+
+        &__box{
+            width: 50%;
+
+
+        }
+    
+        &__info{
+            &-title{
+                font-size: 2.8rem;
+            }
+    
+            &-other{
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
